@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap demo</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+	</head>
+	<body>
+<!-- Nav-Bar -->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+			<div class="container">
+				<a href="#" class="navbar-brand">
+					<img src="img/ideallogo.png" alt="idealnovate Bootcamp" class="logor">
+				</a>
+				
+				<!-- Hand-Toggle Menu Responsive -->
+				<button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navmenu">
+				
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navmenu">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a href="#learn" class="nav-link">What You'll Learn</a>
+						</li>
+						<li class="nav-item">
+							<a href="#questions" class="nav-link">Questions</a>
+						</li>
+						<li class="nav-item">
+							<a href="#instructors" class="nav-link">Instructors</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+  
+  <!-- End of Nav-Bar-->
+  
+  <!-- Hero Showcase -->
+  
+		<section class="bg-dark text-light p-5 text-center text-sm-start">
+			<div class="container">
+				<div class="d-sm-flex align-items-center
+				justify-content-between">
+					<div>
+						<h1 class="main-head">Become A 
+							<span class="text-warning">Software Engineer</span>
+						</h1> 
+						<p class="lead my-4 " id="s-headline" >
+							We focus on teaching our students the fundamentals of
+							the latest and grestest technologies to prepare them
+							for their first engineering role 
+						</p>
+						<button class="btn btn-primary btn-lg" 
+						data-bs-toggle="modal"
+						data-bs-target="#enroll">
+							Start The Enrollment
+						</button>
+					</div>
+					<img class="img-fluid w-50 d-none d-sm-block" 
+					src="img/codex.png" 
+					alt="Web Picture">
+				</div>
+			</div>
+		</section>
+	<!-- End of Hero Showcase -->
+	
+	<!-- Newletter -->
+	
+		<section class="bg-primary text-light p-5">
+			<div class="container">
+				<div class="d-md-flex justify-content-between align-items-center">
+					<h3 class="mb-3 mb-md-0 news-input">Sign Up For Our Newsletter</h3>
+					<div class="input-group">
+					  <input type="text" class="form-control"
+					  placeholder="Enter Email"/>
+					  <button class="btn btn-dark btn-lg" type="button">
+					  Subscribe
+					  </button>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<!-- End of Newletter-->
+	
+	<!-- Card Display -->
+		<section class="p-5">
+			<div class="container">
+				<div class="row text-center g-4">
+					<div class="col-md">
+						<div class="card bg-dark text-light">
+							<div class="card-body text-center">
+								<div class="h1 mb-3">
+									<i class="bi bi-laptop"></i>
+								</div>
+								<h3 class="card-title mb-3">
+									Virtual
+								</h3>
+								<p class="card-text">
+									We offer both physical and virtual 
+									software development professional 
+									training. No Limits
+								</p>
+								<a href="#" class="btn btn-primary">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card bg-secondary text-light">
+							<div class="card-body text-center">
+								<div class="h1 mb-3">
+									<i class="bi bi-award"></i>
+								</div>
+								<h3 class="card-title mb-3">
+									Certifiction
+								</h3>
+								<p class="card-text">
+									Get certified after you complete your
+									bootcamp session and kick-off your
+									career
+								</p>
+								<a href="#" class="btn btn-dark">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+					<div class="card bg-dark text-light">
+							<div class="card-body text-center">
+								<div class="h1 mb-3">
+									<i class="bi bi-briefcase"></i>
+								</div>
+								<h3 class="card-title mb-3">
+									Get Jobs
+								</h3>
+								<p class="card-text">
+									Grab the opportunity of working with
+									worlds top tech industries when
+									you perform excellently
+								</p>
+								<a href="#" class="btn btn-primary">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 
+		</section>
+	
+	<!-- Card Display Session Ends -->
+	
+	<!-- Learn Session 1 -->
+	
+		<section id="learn" class="p-5">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-md">
+						<img src="img/learn1.png" class="img-fluid w-100" alt="Learn Image">
+					</div>
+					<div class="col-md  p-5">
+						<h2>Learn UI/UX Design</h2>
+						<p class=lead>
+							Start your journey with us on software engineering
+							learning the fundamentals down to advance programme
+							as a first generation leading software engineer, 
+							when you attend this years software engineering 
+							bootcamp with us at Idealnovate Africa
+						
+						</p>
+						<p class=lead>
+							Start your journey with us on software engineering
+							learning the fundamentals down to advance programme
+							as a first generation leading software engineer
+						</p>
+						
+						<a href="#" class="btn btn-light mt-3">
+							<i class="bi bi-chevron-right">Read More</i>
+						</a>
+					</div>
+				</div>
+			</div>
+		
+		
+		</section>
+
+	<!-- End of Learn Session -->
+	
+		<!-- Learn Session 2 -->
+	
+		<section id="learn" class="p-5 bg-dark text-light">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-md  p-5">
+						<h2>Learn Web Development</h2>
+						<p class=lead>
+							Start your journey with us on software engineering
+							learning the fundamentals down to advance programme
+							as a first generation leading software engineer, 
+							when you attend this years software engineering 
+							bootcamp with us at Idealnovate Africa
+						
+						</p>
+						<p class=lead>
+							Start your journey with us on software engineering
+							learning the fundamentals down to advance programme
+							as a first generation leading software engineer
+						</p>
+						
+						<a href="#" class="btn btn-light mt-3">
+							<i class="bi bi-chevron-right">Read More</i>
+						</a>
+					</div>
+					<div class="col-md">
+						<img src="img/learn2.png" class="img-fluid w-100" alt="Learn Image">
+					</div>
+				</div>
+			</div>
+		
+		
+		</section>
+
+	<!-- End of Learn Session 2 -->
+	
+			<!-- FAQ Session -->
+	
+		<section id="questions" class="p-5">
+			<div class="container">
+				<h2 class="text-center mb-4">Frequently Asked Questions</h2>
+				<div class="accordion accordion-flush" id="questions">
+				
+				<!-- Item 1 -->
+				  <div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingOne">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+					  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+						Where exactly are you located?
+					  </button>
+					</h2>
+					<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+					data-bs-parent="#questions">
+					  <div class="accordion-body">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					  Donec sagittis vel felis nec sagittis. 
+					  Nunc non arcu vel sem viverra fermentum vel nec nisl. 
+					  Vestibulum sagittis lectus et auctor fermentum.
+					  Cras nec ultrices velit. Quisque lobortis, 
+					  ligula eu accumsan fringilla, nisl ante aliquet velit, 
+					  at accumsan elit eros luctus nunc.</div>
+					</div>
+				  </div>
+				  
+				  <!-- Item 2 -->
+				  <div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingTwo">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target=
+					  "#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+						How much is the training?
+					  </button>
+					</h2>
+					<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+					   <div class="accordion-body">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					  Donec sagittis vel felis nec sagittis. 
+					  Nunc non arcu vel sem viverra fermentum vel nec nisl. 
+					  Vestibulum sagittis lectus et auctor fermentum.
+					  Cras nec ultrices velit. Quisque lobortis, 
+					  ligula eu accumsan fringilla, nisl ante aliquet velit, 
+					  at accumsan elit eros luctus nunc.</div>
+					</div>
+				  </div>
+				  
+				  <!-- Item 3 -->
+				  <div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingThree">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+						What is the duration?
+					  </button>
+					</h2>
+					<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+					   <div class="accordion-body">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					  Donec sagittis vel felis nec sagittis. 
+					  Nunc non arcu vel sem viverra fermentum vel nec nisl. 
+					  Vestibulum sagittis lectus et auctor fermentum.
+					  Cras nec ultrices velit. Quisque lobortis, 
+					  ligula eu accumsan fringilla, nisl ante aliquet velit, 
+					  at accumsan elit eros luctus nunc.</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		
+		
+		</section>
+
+	<!-- End of FAQ Session -->
+	
+				<!-- Instructors-->
+	
+		<section id="instructors" class="p-5 bg-primary">
+			<div class="container">
+				<h2 class="text-center text-white">Our Instructors</h2>
+				<p class="lead text-center text-white mb-5">
+					Our Instructors all have 5+ years working as software engineers
+					from world leading industries
+				</p>
+				<div class="row g-4">
+				<!-- First Instructor -->
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center rounded1">
+								<img src="https://randomuser.me/api/portraits/men/5.jpg"
+								class= "rounded-circle mb-3 " alt="Instructors pics">
+								
+								<h3 class="card-title mb-3">Favour Francis</h3>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Donec sagittis vel felis nec sagittis. 
+									Nunc non arcu vel sem viverra fermentum vel
+								</p>
+								<a href="#" class="sociallink">
+									<i class="bi bi-twitter text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-facebook text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-linkedin text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</div>
+							
+						
+						</div>
+					</div>
+				<!-- Second Instructor -->
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center rounded1">
+								<img src="https://randomuser.me/api/portraits/men/12.jpg"
+								class= "rounded-circle mb-3 " alt="Instructors pics">
+								
+								<h3 class="card-title mb-3">Kingsley Oguzie</h3>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Donec sagittis vel felis nec sagittis. 
+									Nunc non arcu vel sem viverra fermentum vel
+								</p>
+								<a href="#" class="sociallink">
+									<i class="bi bi-twitter text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-facebook text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-linkedin text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</div>
+							
+						
+						</div>
+					</div>
+					
+				<!-- Thrid Instructor -->
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center rounded1">
+								<img src="https://randomuser.me/api/portraits/women/3.jpg"
+								class= "rounded-circle mb-3 " alt="Instructors pics">
+								
+								<h3 class="card-title mb-3">Precious Oladimeji</h3>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Donec sagittis vel felis nec sagittis. 
+									Nunc non arcu vel sem viverra fermentum vel
+								</p>
+								<a href="#" class="sociallink">
+									<i class="bi bi-twitter text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-facebook text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-linkedin text-dark mx-1"></i>
+								</a>
+								<a href="#"class="sociallink">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</div>
+							
+						
+						</div>
+					</div>
+					
+				<!-- Fourth Instructor -->
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center rounded1">
+								<img src="https://randomuser.me/api/portraits/men/11.jpg"
+								class= "rounded-circle mb-3 " alt="Instructors pics">
+								
+								<h3 class="card-title mb-3">Peter Ogehne</h3>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Donec sagittis vel felis nec sagittis. 
+									Nunc non arcu vel sem viverra fermentum vel
+								</p>
+								<a href="#" class="sociallink">
+									<i class="bi bi-twitter text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-facebook text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-linkedin text-dark mx-1"></i>
+								</a>
+								<a href="#" class="sociallink">
+									<i class="bi bi-instagram text-dark mx-1"></i>
+								</a>
+							</div>
+							
+						
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+		
+		</section>
+
+	<!-- End of Instructors -->
+	
+	<!-- Contact & Map -->
+	
+		<section class="p-5">
+			<div class="container">
+				<div class="row g-4">
+					<div class="col-md">
+						<h2 class="text-center mb-4"> Contact Info </h2>
+						<ul class="list-group list-group-flush lead">
+							<li class="list-group-item">
+								<span class="fw-bold">
+								Main Location: 	
+								</span>
+								73 Hammed Omidiran Way Kolabalogun,
+								Osogbo, Osun State.
+							</li>
+							<li class="list-group-item">
+								<span class="fw-bold">
+								Enrollment Phone: 	
+								</span>
+								+2347036849646
+							</li>
+							<li class="list-group-item">
+								<span class="fw-bold">
+								Student Phone: 	
+								</span>
+								+2347036849646
+							</li>
+							<li class="list-group-item">
+								<span class="fw-bold">
+								Enrollment Mail: 	
+								</span>
+								hello@idealnovate.com
+							</li>
+						</ul>
+					
+					</div>
+					<div class="col-md">
+					<div id="map"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<!-- Contact & Map End -->
+	
+	<!-- Footer -->
+		<footer class="p-5 bg-dark text-white text-center
+		position-relative">
+			<div class="container">
+				<p class="lead">
+					Copyright &copy; 2022 Idealnovate Africa
+				</p>
+				
+				<a href="#" class="position-absolute bottom-0 end-0 p-5">
+					<i class="bi bi-arrow-up-circle h1"></i>
+				</a>
+				
+			
+			</div>
+		</footer>
+	<!-- End of Footer -->
+	
+	<!-- Modal -->
+		<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enroll" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+					<p class="lead">
+						Fill out your details to register now
+					</p>
+					<form>
+						<div class="mb-3">
+							<label for="first-name" class="">
+								First Name:
+							</label>
+							<input type="text"class="form-control" id="first-name">
+						</div>
+						
+						<div class="mb-3">
+							<label for="email" class="">
+								Email:
+							</label>
+							<input type="email"class="form-control" id="first-name">
+						</div>
+						
+						<div class="mb-3">
+							<label for="phone" class="">
+								Phone Number:
+							</label>
+							<input type="tel"class="form-control" id="first-name">
+						</div>
+						
+						<div class="mb-3">
+							<label for="location" class="">
+								Location:
+							</label>
+							<input type="text"class="form-control" id="first-name">
+						</div>
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Submit</button>
+				  </div>
+				</div>
+			</div>
+		</div>
+	
+		
+	<!-- End of Modal -->
+  
+	
+	
+	
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+	<script>
+	
+		mapboxgl.accessToken = 
+		'pk.eyJ1IjoibXJmYXZvdXJmcmFuY2lzIiwiYSI6ImNsYnc3azJwZjB4bDEzb3QwNGtkNmZzajUifQ.SEgHDh8Kuwb_7H8__nD55w';
+		var map = new mapboxgl.Map({
+		container: 'map',
+		style: 'mapbox://styles/mapbox/streets-v11',
+		center: [6.5244, 3.3792],
+		zoom: 18,
+		});
+	</script>
+	</body>
+</html>
